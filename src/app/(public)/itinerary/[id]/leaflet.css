@@ -1,0 +1,16 @@
+@import 'leaflet/dist/leaflet.css';
+
+.leaflet-tooltip-custom {
+  background: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 12px;
+  padding: 4px 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.leaflet-tooltip-custom::before {
+  display: none;
+}
+
